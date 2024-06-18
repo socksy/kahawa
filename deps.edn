@@ -1,0 +1,11 @@
+{:paths ["src" "resources"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}}
+ :aliases
+ {:build {:deps {org.jline/jline-terminal {:mvn/version "3.26.2"}
+                 io.github.clojure/tools.build {:mvn/version "0.9.4"}
+                 slipset/deps-deploy {:mvn/version "0.2.1"}}
+          :ns-default build}
+  :test {{:extra-paths ["test"]
+          :extra-deps {lambdaisland/kaocha {:mvn/version "1.91.1392"}
+                       lambdaisland/kaocha-cucumber {:mvn/version "0.11.100"}}
+         :main-opts ["-m" "kaocha.runner"]}}}}
