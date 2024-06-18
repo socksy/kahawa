@@ -1,6 +1,6 @@
-(ns socksy.kahawa-test
+(ns kahawa.kahawa-test
   (:require [clojure.test :refer :all]
-            [socksy.kahawa :refer :all]))
+            [kahawa.kahawa :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

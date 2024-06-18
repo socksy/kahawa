@@ -1,4 +1,4 @@
-(ns socksy.kahawa)
+(ns kahawa.kahawa)
 
 (defn foo
   "I don't do a whole lot."
