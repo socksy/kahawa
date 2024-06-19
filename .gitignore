@@ -30,3 +30,4 @@
 deps.local.edn
 .envrc
 .devenv
+devenv.local.nix

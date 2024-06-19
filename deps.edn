@@ -5,7 +5,9 @@
  {:build {:deps {io.github.clojure/tools.build {:mvn/version "0.9.4"}
                  slipset/deps-deploy {:mvn/version "0.2.1"}}
           :ns-default build}
-  :dev {:extra-deps {com.fzakaria/slf4j-timbre {:mvn/version "0.4.1"}}}
+  :dev {:extra-deps {com.fzakaria/slf4j-timbre {:mvn/version "0.4.1"}
+                     lambdaisland/kaocha {:mvn/version "1.91.1392"}
+                      lambdaisland/kaocha-cucumber {:mvn/version "0.11.100"}}}
   :test {:extra-paths ["test"]
          :extra-deps {lambdaisland/kaocha {:mvn/version "1.91.1392"}
                       lambdaisland/kaocha-cucumber {:mvn/version "0.11.100"}}

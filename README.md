@@ -1,6 +1,11 @@
 # kahawa
 
-FIXME: my new library.
+FIXME
+
+## Devenv
+I'm using [nix flakes](https://nixos.wiki/wiki/flakes) and [devenv.sh](https://devenv.sh/) to develop this library. If you want to contribute, it's strongly recommended that you [install nix with flakes support](https://zero-to-nix.com/start/install) and then either run `bin/start-devenv` or if you prefer a seamless direnv experience, `cp .envrc.sample .envrc && direnv allow` which will enable the environment every time you enter the directory.
+
+The flake.nix itself is mostly boilerplate I use in every project - the real seitan of the setup can be found in the devenv.nix file, which should be a lot more approachable for non-nix users too.
 
 ## Usage
 
