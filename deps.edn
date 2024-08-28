@@ -1,9 +1,7 @@
 {:paths ["src" "resources"]
  :deps {org.clojure/clojure {:mvn/version "1.11.1"}
-        org.jline/jline-terminal {:mvn/version "3.26.2"}
-        org.jline/jline-terminal-jni {:mvn/version "3.26.2"}
-        org.jline/jline-terminal-ffm {:mvn/version "3.26.2"}
-        }
+        stringer/stringer {:mvn/version "0.4.1"}
+        ch.gluet/couplet {:mvn/version "0.2.1"}}
  :jvm-opts ["--enable-native-access=ALL-UNNAMED"]
  :aliases
  {:build {:deps {io.github.clojure/tools.build {:mvn/version "0.9.4"}
