@@ -32,3 +32,5 @@ deps.local.edn
 .devenv
 devenv.local.nix
 .clj-kondo
+.aider*
+.env
